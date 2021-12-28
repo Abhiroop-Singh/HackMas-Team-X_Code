@@ -1,0 +1,291 @@
+img{
+    width: 50%;
+}
+
+#btnSpeak{
+    margin-left: 0;
+}
+
+#voiceList{
+    width: 100%;
+    padding-right: 70px;
+    margin-top:1rem;
+    /* padding-right: 1rem; */
+}
+
+#txtInput{
+    display: none;
+}
+
+li{
+    line-height: 2;
+}
+
+.sops{
+    position: relative;
+    font-size: 1.2rem;
+    left: 9%;
+    margin-top: 2rem;
+    text-align: left;
+}
+/* roughly */
+body{
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Used this multiple */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    font-size: larger;
+}
+
+/* Headings */
+
+.title-content{
+    font-family: 'Arvo', serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    /* size: 3.5rem; */
+    line-height: 1.5;
+    /* margin-top: 15%; */
+    padding-right: 20%;
+    margin-bottom: 10%;
+}
+
+
+/* Coloured Section */
+
+.coloured-section{
+    background-color: #A7C7E7;
+    color: white;
+}
+
+/* White Section */
+.white-section{
+    background-color:#fff;
+}
+
+
+/* Title Section */
+
+#title{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 3%;
+}
+
+/* Buttons */
+.btn{
+    line-height: 2;
+    margin-right: 30px;
+    margin-bottom: 5%;
+}
+/* Buttons */
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold; 
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+/* Navigation Bar */
+
+.container-fluid{
+    padding: 3% 15% 3% 15%;
+}
+
+.covid-img{
+    width: 30%;
+    margin-top: 1%;
+    margin-left:4%;
+    /* transform: rotate(27deg); */
+    position:absolute;
+    z-index: 1;
+}
+
+
+/* Features Section */
+#features{
+    padding: 10% 7% 10% 7%;
+    position: relative;
+    z-index: 1;
+    margin:0 auto 0 auto;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+.col-lg-4{
+    padding: 4.75%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color:#53aff4;
+    color: #ffff;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* Press section */
+#press{
+    background-color:#53aff4;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 10%;
+    border-radius: 5%;
+    margin: 2rem;
+}
+
+
+/* Pricing Section */
+#sop{
+    padding: 7rem;
+}
+
+#sop p{
+    color: #8f8f8f;
+    font-size: 1.12rem;
+}
+
+#sop h3{
+    font-family: 'Playfair Display', serif;
+}
+
+#sop h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.sop-column{
+    padding: 2rem;
+}
+
+.sop-text {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+}
+
+
+/* Call to action */
+#cta{
+    padding-top: 0.5rem;
+    color: #fff;    
+}
+
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight:900;
+    margin: 5% auto;
+    line-height: 2;
+}
+
+
+/* Footer section */
+#footer{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-icon{
+    text-decoration: none;
+    color: #8f8f8f;
+    margin: 1%;
+}
+
+/* Footer Icons */
+.fa-twitter:hover {
+    color: rgb(29, 155, 240);;
+}
+
+.fa-facebook-f:hover{
+    color:#3b5998;
+}
+
+.fa-instagram:hover{
+    color:#e0625e;
+}
+
+.fa-envelope:hover{
+    color:#EA4335;
+}
+
+
+/* the button gets close */
+@media (min-width:991px) and (max-width:1085px) {
+    .playstore-btn{
+        margin-top:4%;
+    }
+}
+
+/* @media(max-width:1133px){
+    .sops{
+        text-align: center;
+    }
+} */
+/* The covid-img goes down */
+@media (max-width:991px) {
+    .covid-img{
+        position:static;
+        width: 40%;
+        margin-left: 0;
+        margin-top: 7%;
+        transform: rotate(0deg);
+    }
+    h1{
+        margin-left: 60px;
+    }
+    #title{
+        text-align: center;
+    }
+}

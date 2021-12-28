@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Covid Advisory</title>
+
+    <!-- adding bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- adding bootstrap -->
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- adding font awesome small images beside buttons -->
+    <script src="https://kit.fontawesome.com/3f71719c1a.js" crossorigin="anonymous"></script>
+    <!-- adding font awesome small images beside buttons -->
+
+    <!-- adding google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- adding google fonts -->
+
+
+    <!-- adding javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!-- adding javascript -->
+
+</head>
+
+<body>
+
+    <input id='txtInput' />
+    <!-- adding input field -->
+
+    <!-- Select Voice: <select id='voiceList'></select> <br><br> -->
+
+    <!-- <button id='btnSpeak'>Speak!</button> -->
+
+
+    <section class="coloured-section" id="title">
+
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+
+            <!-- navbar code  -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="index.html">Covid Advisory</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sop">SOPs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonial</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">
+                                Download
+                            </a>
+                        </li>
+
+                        
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#">
+                                Language:
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <!--adding dropdown  -->
+                    
+                            <select id='voiceList'>
+                                
+                            </select>
+                            
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="btn btn-outline-light" id='btnSpeak'>Speak!</button>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <!-- navbar code -->
+
+            <!-- Title -->
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12">
+                    <h1 class="title-content">We think we are done with the pandemic,but the pandemic is not done with
+                        us.</h1>
+
+                    <a href="https://apps.apple.com/in/app/aarogyasetu/id1505825357">
+                        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+                    </a>
+
+
+                    <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_IN&gl=US">
+                        <button type="button" class="playstore-btn btn btn-outline-light btn-lg"><i
+                                class="fab fa-google-play"></i> Download</button>
+                    </a>
+
+
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <img src="images/title-img.jpeg" class="covid-img" alt="covid-mockup">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+
+        <h1>How to Select A Proper Mask...</h1>
+
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/do1.jpeg" alt="do1">
+                <h3 class="feature-title">Use Fabric</h3>
+                <p>Have two or more layers of washable, breathable fabric</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/do2.jpeg" alt="do2">
+                <h3 class="feature-title">Cover Properly</h3>
+                <p>Completely cover your nose and mouth</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/do3.jpeg" alt="do3">
+                <h3 class="feature-title">Fit Completely</h3>
+                <p>Fit snugly against the sides of your face and don’t have gaps</p>
+            </div>
+
+        </div>
+
+
+        <div class="row align-items-start">
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/dont1.jpeg" alt="dont1">
+                <h3 class="feature-title">Vents</h3>
+                <p>Have exhalation valves or vents which allow virus particles to escape</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/dont2.jpeg" alt="dont2">
+                <h3 class="feature-title">Mask Type</h3>
+                <p>Are specially labeled “surgical” N95 respirators, as those should be prioritized for healthcare
+                    personnel</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-12">
+                <img src="/images/dont3.jpeg" alt="dont3">
+                <h3 class="feature-title">Fabric Type</h3>
+                <p>Are made of fabric that makes it hard to breathe, for example, vinyl</p>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- Features -->
+
+
+    <!-- Testimonials -->
+
+    <section class="coloured-section" id="testimonials">
+
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false" data-bs-interval="2000"
+            data-bs-pause="hover">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <h2 class="testimonial-text">The whole world is undergoing a very serious phase of crisis… This
+                        crisis has put the entire human race in peril.</h2>
+                    <img class="testimonial-image" src="images/narendra.jpg" alt="dog-profile">
+                    <em>Narendra Modi-PM India</em>
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">We are in this together and we will get through this, together.</h2>
+                    <img class="testimonial-image" src="images/un.jpeg" alt="lady-profile">
+                    <em>UN Secretary-General</em>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- logo -->
+
+    <section class="coloured-section" id="press">
+        <img class="press-logo" src="images/logo1.jpeg" alt="tc-logo">
+        <img class="press-logo" src="images/logo2.jpeg" alt="tnw-logo">
+        <img class="press-logo" src="images/logo3.jpeg" alt="biz-insider-logo">
+
+    </section>
+
+
+
+    <!-- sops-->
+
+    <section class="white-section" id="sop">
+
+        <h2 class="sop-text">Keep yourself and others safe: Do it all!</h2>
+        <p>Protect yourself and those around you:</p>
+
+        <div class="sops">
+
+            <ul>
+                <li>Get vaccinated as soon as it’s your turn and, follow local guidance on vaccination</li>
+                <li> Get vaccinated as soon as it’s your turn and, follow local guidance on vaccination</li>
+                <li> Keep physical distance of at least 1 metre from others, even if they don’t appear to be </li>sick.
+                Avoid
+                crowds and close contact.
+                <li> Wear a properly fitted mask when physical distancing is not possible and in ventilated
+                </li>
+                settings.
+                <li> Clean your hands frequently, with alcohol-based hand rub or soap and water</li>
+                <li> Cover your mouth and nose with a bent elbow or tissue, when you cough or sneeze Dispose of used tissues immediately and, clean hands 
+                </li>
+                regularly.
+
+                <li> If you develop symptoms or test positive for COVID-19, self-isolate until you recover</li>
+                <li> Make sure your mask covers your nose, mouth and chin</li>
+                <li> Clean your hands before you put your mask on, before and after you take it off, and after </li>you
+                touch it
+                at any time.
+                <li> When you take off your mask, store it in a clean plastic bag, and every day either wash it </li>if
+                it’s a
+                fabric mask or, dispose of it in a trash bin if it’s a medical mask.
+                <li> Don’t use masks with valves</li>
+                <li> Avoid the 3Cs: spaces that are closed, crowded or involve close contact</li>
+                <li> Dispose off used masks and, ppe’s properly</li>
+
+            </ul>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Call to Action -->
+
+    <section class="coloured-section" id="cta">
+
+        <h3 class="cta-heading">Use Aarogya Setu App to Fight COVID-19</h3>
+
+        <a href="https://play.google.com/store/apps/details?id=nic.goi.aarogyasetu&hl=en_IN&gl=US">
+            <button type="button" class="playstore-btn btn btn-outline-light btn-lg"><i
+                    class="fab fa-google-play"></i>Download</button>
+        </a>
+
+        <a href="https://apps.apple.com/in/app/aarogyasetu/id1505825357">
+            <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Download</button>
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+
+        <a class="footer-icon fab fa-twitter"
+            href="https://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=who"></a>
+
+        <a class="footer-icon fab fa-facebook-f" href="https://www.facebook.com/WHO"></a>
+        <a class="footer-icon fab fa-instagram" href="https://www.instagram.com/who/"></a>
+
+        <p>© Copyright 2021 | Team X_Code</p>
+
+    </footer>
+
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
